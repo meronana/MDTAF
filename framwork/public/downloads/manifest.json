@@ -1,0 +1,481 @@
+{
+ "files": [
+  {
+   "id": "fu_source",
+   "endpoint": "fu",
+   "role": "source",
+   "name": "fu_source.csv",
+   "path": "data/normalized_data/fu_source.csv",
+   "bytes": 763705,
+   "sha256": "8a971468e9fd9dd58e359bae744ce3b2dc8bf103c263a91947ce195b63cf2c0e",
+   "rows": 3783,
+   "columns": [
+    "smiles",
+    "relation",
+    "value",
+    "units",
+    "assay_id",
+    "doc_id",
+    "desc",
+    "activity_id",
+    "domain",
+    "species"
+   ],
+   "preview_columns": [
+    "smiles",
+    "relation",
+    "value",
+    "units",
+    "assay_id",
+    "doc_id"
+   ],
+   "preview": [
+    [
+     "Brc1ccc2[nH]nc(C3=CCCNC3)c2c1",
+     "=",
+     "0.4986",
+     "",
+     "CHEMBL5360455",
+     "CHEMBL5357083"
+    ],
+    [
+     "C#CCN(C)[C@H](C)Cc1ccccc1",
+     "=",
+     "0.5388",
+     "",
+     "CHEMBL1043580",
+     "CHEMBL1156824"
+    ],
+    [
+     "C#CCN(C)[C@H](C[18F])Cc1ccccc1",
+     "=",
+     "0.6677",
+     "",
+     "CHEMBL1913962",
+     "CHEMBL1909627"
+    ],
+    [
+     "C#CCOCC(C(=O)N1CC[C@@H]2C[C@@H]3CCC[C@H](NC(=O)[C@H](C)NC…",
+     "=",
+     "0.6272",
+     "",
+     "CHEMBL3241793",
+     "CHEMBL3232969"
+    ],
+    [
+     "C#CCO[C@H]1CN(c2ncc(C(=O)O)s2)CC[C@H]1NC(=O)c1[nH]c(C)c(C…",
+     "=",
+     "-0.1983",
+     "",
+     "CHEMBL3366713",
+     "CHEMBL3352173"
+    ]
+   ]
+  },
+  {
+   "id": "fu_target",
+   "endpoint": "fu",
+   "role": "target",
+   "name": "fu_target.csv",
+   "path": "data/normalized_data/fu_target.csv",
+   "bytes": 35152,
+   "sha256": "4e23470408c391653be5889d93b1041872f9e9c8c83c4e8e992e0c3c9d23f268",
+   "rows": 353,
+   "columns": [
+    "smiles",
+    "value",
+    "ik"
+   ],
+   "preview_columns": [
+    "smiles",
+    "value",
+    "ik"
+   ],
+   "preview": [
+    [
+     "C#C[C@]1(O)C=C[C@H]2[C@@H]3CC=C4CC(=O)CCC4[C@H]3CC[C@@]21CC",
+     "-1.6383",
+     "PCGOZSMTJRCWQF"
+    ],
+    [
+     "C#C[C@]1(O)CC[C@H]2[C@@H]3CC=C4CC(=O)CCC4[C@H]3C(=C)C[C@@…",
+     "-1.6990",
+     "BOMXWTHINLWJIE"
+    ],
+    [
+     "C#C[C@]1(O)CC[C@H]2[C@@H]3CC=C4CC(=O)CCC4[C@H]3CC[C@@]21CC",
+     "-1.6021",
+     "LYRBZVWRTAFWPO"
+    ],
+    [
+     "C/C(=C\\c1csc(C)n1)[C@@H]1C[C@@H]2O[C@]2(C)CCC[C@H](C)[C@H…",
+     "-0.6990",
+     "FABUFPQFXZVHFB"
+    ],
+    [
+     "C1COC(NC(C2CC2)C2CC2)=[NH+]1",
+     "-0.0458",
+     "CQXADFVORZEARL"
+    ]
+   ]
+  },
+  {
+   "id": "clearance_source",
+   "endpoint": "CL",
+   "role": "source",
+   "name": "clearance_source.csv",
+   "path": "data/normalized_data/clearance_source.csv",
+   "bytes": 3271767,
+   "sha256": "5c9364b5168bfd202afe10fe3d1635dae856c10b5aa13c29ce5d544f9c79d65f",
+   "rows": 14387,
+   "columns": [
+    "smiles",
+    "relation",
+    "value",
+    "units",
+    "assay_id",
+    "doc_id",
+    "desc",
+    "activity_id",
+    "domain",
+    "species",
+    "Internal ID",
+    "Vendor ID",
+    "CollectionName",
+    "LOG MDR1-MDCK ER (B-A/A-B)",
+    "LOG SOLUBILITY PH 6.8 (ug/mL)",
+    "LOG PLASMA PROTEIN BINDING (HUMAN) (% unbound)",
+    "LOG PLASMA PROTEIN BINDING (RAT) (% unbound)",
+    "LOG RLM_CLint (mL/min/kg)"
+   ],
+   "preview_columns": [
+    "smiles",
+    "relation",
+    "value",
+    "units",
+    "assay_id",
+    "doc_id"
+   ],
+   "preview": [
+    [
+     "Br.Cc1cnc(Nc2ccc(C#N)cc2)nc1Nc1c(F)cc(-c2ccncc2)cc1F",
+     "=",
+     "-0.4362",
+     "mL.min-1.g-1",
+     "CHEMBL5045010",
+     "CHEMBL5042530"
+    ],
+    [
+     "Br.O=C1NCC(c2ccccc2)C12CCN(C1(c3ccccc3)CCCCC1)CC2",
+     "=",
+     "-0.6621",
+     "mL.min-1.g-1",
+     "CHEMBL864840",
+     "CHEMBL1145308"
+    ],
+    [
+     "Brc1ccc2c(c1)CCCc1nnc(C3CCN(c4ccccn4)CC3)n1-2",
+     "=",
+     "-0.7171",
+     "mL.min-1.g-1",
+     "CHEMBL4669223",
+     "CHEMBL4665717"
+    ],
+    [
+     "Brc1ccc2c(c1)CCCc1nnc([C@H]3CC[C@H](Oc4ccccn4)CC3)n1-2",
+     "=",
+     "-0.6621",
+     "mL.min-1.g-1",
+     "CHEMBL4669223",
+     "CHEMBL4665717"
+    ],
+    [
+     "C#CC(=O)NCCn1cc(-c2ncnc3cc(OC)c(OC)cc23)c(-c2cccc(OC)c2)n1",
+     "=",
+     "0.4850",
+     "mL.min-1.g-1",
+     "CHEMBL5511550",
+     "CHEMBL5506057"
+    ]
+   ]
+  },
+  {
+   "id": "clearance_target",
+   "endpoint": "CL",
+   "role": "target",
+   "name": "clearance_target.csv",
+   "path": "data/normalized_data/clearance_target.csv",
+   "bytes": 103523,
+   "sha256": "d9ca08301f7432ce71960d58cec43c4f787777267776b437327e97ec712a5f0d",
+   "rows": 1027,
+   "columns": [
+    "smiles",
+    "value",
+    "ik"
+   ],
+   "preview_columns": [
+    "smiles",
+    "value",
+    "ik"
+   ],
+   "preview": [
+    [
+     "C#CCC(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)NC(CCC(=O)[O-])C(=…",
+     "0.6385",
+     "OGSBUKJUDHAQEA"
+    ],
+    [
+     "C#CCCCC(=O)c1cc(C(C)(C)C)c([O-])c(C(C)(C)C)c1",
+     "0.9494",
+     "ZHXUEUKVDMWSKV"
+    ],
+    [
+     "C#CCN(Cc1cc2c(=O)nc(C)[n-]c2cc1C)c1ccc(C(=O)NC(CCc2nnn[n-…",
+     "-0.5376",
+     "YSAOIOBNLKRLOE"
+    ],
+    [
+     "C#CC[NH+](C)C(C)Cc1ccccc1",
+     "1.3010",
+     "MEZLKOACVSPNER"
+    ],
+    [
+     "C#C[C@@]1(O)[C@@H](CO)O[C@H](n2ccc(N)nc2=O)[C@@H]1O",
+     "0.2041",
+     "JFIWEPHGRUDAJN"
+    ]
+   ]
+  },
+  {
+   "id": "half_life_source",
+   "endpoint": "t12",
+   "role": "source",
+   "name": "half_life_source.csv",
+   "path": "data/normalized_data/half_life_source.csv",
+   "bytes": 2139437,
+   "sha256": "b587f29cabb6050e48e511d4d23f9d167d02da09845ca58074ddab103f5fe4c2",
+   "rows": 9204,
+   "columns": [
+    "smiles",
+    "relation",
+    "value",
+    "units",
+    "assay_id",
+    "doc_id",
+    "desc",
+    "activity_id",
+    "domain",
+    "species"
+   ],
+   "preview_columns": [
+    "smiles",
+    "relation",
+    "value",
+    "units",
+    "assay_id",
+    "doc_id"
+   ],
+   "preview": [
+    [
+     "Br.C=CCOC(C)C1=CC(C)(C)Nc2ccc(-c3cc(F)ccc3OC)cc21",
+     "=",
+     "-1.1526",
+     "hr",
+     "CHEMBL889787",
+     "CHEMBL1146252"
+    ],
+    [
+     "Br.CCN(CC)CCn1c(=N)n(CCCOc2ccc(Cl)cc2Cl)c2ccccc21",
+     "=",
+     "-0.8612",
+     "hr",
+     "CHEMBL3371857",
+     "CHEMBL3352394"
+    ],
+    [
+     "Br.CN(C)Cc1cc2c([nH]c(=O)c3cccc(O)c32)s1",
+     "=",
+     "-0.0550",
+     "hr",
+     "CHEMBL3225214",
+     "CHEMBL3217609"
+    ],
+    [
+     "Br.Cc1ccc(N2CCN(C[C@@H]3C[C@H]3c3ccccc3)CC2)c(C)c1",
+     "=",
+     "-0.4836",
+     "hr",
+     "CHEMBL636918",
+     "CHEMBL1133592"
+    ],
+    [
+     "Br.Cc1cnc(Nc2ccc(C#N)cc2)nc1Nc1c(F)cc(-c2ccncc2)cc1F",
+     "=",
+     "0.7309",
+     "hr",
+     "CHEMBL5045030",
+     "CHEMBL5042530"
+    ]
+   ]
+  },
+  {
+   "id": "half_life_target",
+   "endpoint": "t12",
+   "role": "target",
+   "name": "half_life_target.csv",
+   "path": "data/normalized_data/half_life_target.csv",
+   "bytes": 114901,
+   "sha256": "cca000d7e1fb43fe3f9e692fab80c51659b06c1627148e9fafa5be7dd0599969",
+   "rows": 1164,
+   "columns": [
+    "smiles",
+    "value",
+    "ik"
+   ],
+   "preview_columns": [
+    "smiles",
+    "value",
+    "ik"
+   ],
+   "preview": [
+    [
+     "C#CCC(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)NC(CCC(=O)[O-])C(=…",
+     "1.1761",
+     "OGSBUKJUDHAQEA"
+    ],
+    [
+     "C#CCCCC(=O)c1cc(C(C)(C)C)c([O-])c(C(C)(C)C)c1",
+     "1.7050",
+     "ZHXUEUKVDMWSKV"
+    ],
+    [
+     "C#CC[NH+](C)C(C)Cc1ccccc1",
+     "0.1139",
+     "MEZLKOACVSPNER"
+    ],
+    [
+     "C#C[C@@]1(O)[C@@H](CO)O[C@H](n2ccc(N)nc2=O)[C@@H]1O",
+     "1.0374",
+     "JFIWEPHGRUDAJN"
+    ],
+    [
+     "C#C[C@]1(O)C=C[C@H]2[C@@H]3CC=C4CC(=O)CCC4[C@H]3CC[C@@]21CC",
+     "1.0000",
+     "PCGOZSMTJRCWQF"
+    ]
+   ]
+  }
+ ],
+ "cv": {
+  "path": "data/cv_datasets",
+  "n_files": 47,
+  "bytes": 32104191
+ },
+ "cv_summary": [
+  {
+   "fold": 0,
+   "endpoint": "CL",
+   "source": 14387,
+   "train": 821,
+   "test": 206
+  },
+  {
+   "fold": 1,
+   "endpoint": "CL",
+   "source": 14387,
+   "train": 821,
+   "test": 206
+  },
+  {
+   "fold": 2,
+   "endpoint": "CL",
+   "source": 14387,
+   "train": 822,
+   "test": 205
+  },
+  {
+   "fold": 3,
+   "endpoint": "CL",
+   "source": 14387,
+   "train": 822,
+   "test": 205
+  },
+  {
+   "fold": 4,
+   "endpoint": "CL",
+   "source": 14387,
+   "train": 822,
+   "test": 205
+  },
+  {
+   "fold": 0,
+   "endpoint": "t12",
+   "source": 9204,
+   "train": 931,
+   "test": 233
+  },
+  {
+   "fold": 1,
+   "endpoint": "t12",
+   "source": 9204,
+   "train": 931,
+   "test": 233
+  },
+  {
+   "fold": 2,
+   "endpoint": "t12",
+   "source": 9204,
+   "train": 931,
+   "test": 233
+  },
+  {
+   "fold": 3,
+   "endpoint": "t12",
+   "source": 9204,
+   "train": 931,
+   "test": 233
+  },
+  {
+   "fold": 4,
+   "endpoint": "t12",
+   "source": 9204,
+   "train": 932,
+   "test": 232
+  },
+  {
+   "fold": 0,
+   "endpoint": "fu",
+   "source": 3783,
+   "train": 282,
+   "test": 71
+  },
+  {
+   "fold": 1,
+   "endpoint": "fu",
+   "source": 3783,
+   "train": 282,
+   "test": 71
+  },
+  {
+   "fold": 2,
+   "endpoint": "fu",
+   "source": 3783,
+   "train": 282,
+   "test": 71
+  },
+  {
+   "fold": 3,
+   "endpoint": "fu",
+   "source": 3783,
+   "train": 283,
+   "test": 70
+  },
+  {
+   "fold": 4,
+   "endpoint": "fu",
+   "source": 3783,
+   "train": 283,
+   "test": 70
+  }
+ ]
+}

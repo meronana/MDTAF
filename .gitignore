@@ -1,0 +1,30 @@
+# Large or regenerable artefacts (kept locally, not in the repo)
+features/
+checkpoints/
+results/
+benchmark/results/
+benchmark/results_*/
+0_data_process/data/
+*.pt
+*.pkl
+*.npz
+
+# Data: only the curated sets are committed
+data/*
+!data/README.md
+!data/cv_datasets/
+!data/normalized_data/
+data/normalized_data/*
+!data/normalized_data/fu_source.csv
+!data/normalized_data/fu_target.csv
+!data/normalized_data/clearance_source.csv
+!data/normalized_data/clearance_target.csv
+!data/normalized_data/half_life_source.csv
+!data/normalized_data/half_life_target.csv
+
+# Local tooling
+.backup_*/
+.claude/
+.ipynb_checkpoints/
+__pycache__/
+*.log

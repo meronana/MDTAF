@@ -1,0 +1,16 @@
+Fold,Property,Source,Target_Train,Target_Test,Target_Total
+0,clearance,14387,821,206,1027
+1,clearance,14387,821,206,1027
+2,clearance,14387,822,205,1027
+3,clearance,14387,822,205,1027
+4,clearance,14387,822,205,1027
+0,half_life,9204,931,233,1164
+1,half_life,9204,931,233,1164
+2,half_life,9204,931,233,1164
+3,half_life,9204,931,233,1164
+4,half_life,9204,932,232,1164
+0,fu,3783,282,71,353
+1,fu,3783,282,71,353
+2,fu,3783,282,71,353
+3,fu,3783,283,70,353
+4,fu,3783,283,70,353
