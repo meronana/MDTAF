@@ -1,0 +1,2 @@
+# Keep data files byte-identical to the curated originals (checksums on the site depend on it)
+*.csv -text
